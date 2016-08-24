@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<TITLE>My Github ProfileCard</TITLE>
+<META name="author" content="Template Creator: Julian Praest - joolean.io">
+<META name="copyright" content="Creative Commons BY-NC 4.0">
+
+<style>
+@import 'https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i|Raleway:300,300i,600,600i';
+body {
+    background-image: linear-gradient(-34deg, #FF8373 7%, #FF8473 47%, #FF7373 100%);
+    border-radius: 0px;
+	overflow: hidden;
+    text-rendering: optimizeLegibility;
+}
+::selection {
+  background: #3C3C3C ; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #3C3C3C ; /* Gecko Browsers */
+}
+section {
+    display: block;
+    position: absolute;
+}
+#information {
+    left: 400px;
+    top: 60px;
+	width: 500px;
+    height: 600px;
+    background-image: none;
+}
+h2 {
+	/* Lorem ipsum dolor si: */
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: 100 !important;
+	color: #FFF3F1 ;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+          
+              
+    -moz-animation-name: pageLoad;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 0.8s;
+    -moz-animation-delay: 0s;
+
+    -webkit-animation-name: pageLoad;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-delay: 0s;
+
+    animation-name: pageLoad;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.8s;
+    animation-delay: 0s;
+
+}
+h1 {
+	/* Andrea Exampliste: */
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	font-weight: 600 !important;
+	color: #FFFFFF;
+	letter-spacing: 1.9px;
+	margin-top: -20px;
+   
+              
+    -moz-animation-name: pageLoad;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 0.8s;
+    -moz-animation-delay: 0s;
+
+    -webkit-animation-name: pageLoad;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-delay: 0s;
+
+    animation-name: pageLoad;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.8s;
+    animation-delay: 0s;
+
+}
+h3 {
+	/* I am: */
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+    font-weight: 300!important;
+	color: #FFFFFF;
+	letter-spacing: -0.02px;
+    
+              
+    -moz-animation-name: pageLoad;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 0.8s;
+    -moz-animation-delay: 0s;
+
+    -webkit-animation-name: pageLoad;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-delay: 0s;
+
+    animation-name: pageLoad;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.8s;
+    animation-delay: 0s;
+
+
+}
+hr {
+    background-color: white;
+    display: block;
+    margin: -25px 00px 50px ;
+    height: 3px;
+    width: 160px;
+    border: none;
+          
+             
+    -moz-animation-name: pageLoad;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 0.8s;
+    -moz-animation-delay: 0s;
+
+    -webkit-animation-name: pageLoad;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-delay: 0s;
+
+    animation-name: pageLoad;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.8s;
+    animation-delay: 0s;
+
+}
+#photo {
+	background-image: url("photo.png");
+    background-size:contain;
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	background-repeat: no-repeat;
+    left: -120px;
+    top: -150px;
+}
+ul {
+    display: block;
+    background-color: none;
+    position: fixed;
+}
+#sm_links {
+    right: 50px;
+    top: 50px;
+}
+#gh {
+    margin-top: 10px;
+}
+#frameBorder {
+    border: 10px white solid;
+    bottom: 10px;
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+}
+#resumeButton {
+    margin-left: -6px;
+    background-image: url("resumeButtonSprite.png");
+    background-position: top;
+    height: 81px;
+    width: 180px;
+    position: absolute;
+          
+    -moz-animation-name: pageLoadButton;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-delay: 0.0s;
+
+    -webkit-animation-name: pageLoadButton;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-delay: 0.0s;
+
+    animation-name: pageLoadButton;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 1.5s;
+    animation-delay: 0.0s;
+}
+
+#resumeButton:hover {
+    background-position: bottom;
+}
+          
+
+          
+@-moz-keyframes pageLoad {
+    0% {
+        -moz-transform: translateX(-150px);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: translateX(0);
+        opacity: 100;
+    }
+}
+@-webkit-keyframes pageLoad {
+    0% {
+        -webkit-transform: translateX(-150px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        opacity: 100;
+    }
+}
+@keyframes pageLoad {
+    0% {
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 100;
+    }
+}
+          
+          
+          
+@-moz-keyframes pageLoadButton {
+    0% {
+        opacity: 0;
+    }    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+@-webkit-keyframes pageLoadButton {
+    0% {
+        opacity: 0;
+    }    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+@keyframes pageLoadButton {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="photo"></div>
+<div id="frameBorder"></div>
+<section id="information">
+  <h3>I am</h3>
+  <h1>Andrea </br>Exampliste</h1>
+  <hr>
+  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
+          <a href="https://github.com/UIxUX" id="resumeButton">
+          </a>
+</section>
+<section id="sm_links">
+          <div id= "fb">
+                    <a href="http://www.fb.com">
+                    <img border="none" alt="my FB profile" src="fb.png" width="60" height="60">
+                    </a>
+          </div>
+          <div id= "gh">
+                    <a href="http://www.github.com">
+                              <img border="none" alt="my FB profile" src="gh.png" width="60" height="60">
+                    </a>
+          </div>
+</section>
+
+
+</body>
+</html>
